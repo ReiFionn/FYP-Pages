@@ -22,11 +22,12 @@ title: Final Year Project
 email: 20101977@setu.ie
 description: >- # this means to ignore newlines until "baseurl:"
   Site for updates and endeavours about my final year project!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/FYP" # the subpath of your site, e.g. /blog
+url: "https://reifionn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  reifionn
 # Build settings
+theme: null
 remote_theme: pages-themes/hacker
 plugins:
   - jekyll-feed
