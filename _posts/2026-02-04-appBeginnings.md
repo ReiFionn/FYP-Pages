@@ -9,8 +9,8 @@ I have created a basic skeleton for what I would like the "home"/"listings" page
 
 Here is what the app looks like currently: 
 
-<img src="images/" alt="Login/Sign Up Screen Layout" width="300" height="200">
-<img src="images/" alt="Home/Listing Screen Layout" width="300" height="200">
+<img src="images/IMG_3506.PNG" alt="Login/Sign Up Screen Layout" width="300" height="200">
+<img src="images/IMG_3505.PNG" alt="Home/Listing Screen Layout" width="300" height="200">
 
 The layout is inspired by the app Vinted's layout, as I found it a very simple and easy to use marketplace app. I enjoyed being able to quickly browse items while scrolling on the main screen, and getting further detail upon clicking on an item. 
 
