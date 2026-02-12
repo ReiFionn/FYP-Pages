@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The App's Humble Beginnings"
+title:  "New Pages New Tables"
 date:   2026-02-04 16:57:01 +0000
 categories: project update
 ---
