@@ -34,7 +34,7 @@ this locally, but later on I move this onto Supabase... Once the webhook is fire
 When a user now begins a transaction, the Stripe ID that is created by Stripe is retrieved and set as the stripe_customer_id field. A check is done before every transaction to see if the user
 has a Stripe ID associated with their account. If they do, that ID is used, otherwise an ID is created and set to the empty field.
 
-<img src="{{ '/images/easter/profileTable.png' | relative_url }}" alt="profile table" width="300">
+<img src="{{ '/images/easter/profileTable.png' | relative_url }}" alt="profile table">
 
 The ticket listing page was updated to show details about the ticket. I will come back to this and make it prettier if I have the time!
 
