@@ -39,16 +39,16 @@ reports are insert into the new support_tickets table. One field of reports is t
 sending it a lengthy prompt that includes all information about the users, the conversation and the transaction. Once this response has been inserted into the table, an RPC
 is used to send the ticket to a Slack channel of Agorex admins for them to resolve. During different stages of the transaction, "system" messages will be inserted into the conversation between the two users to prompt them to complete their next steps.
 
-<img src="{{ '/images/finalquestionmark/buyer1' | relative_url }}" alt="" width="300">
-<img src="{{ '/images/finalquestionmark/seller1' | relative_url }}" alt="" width="300">
-<img src="{{ '/images/finalquestionmark/buyer2' | relative_url }}" alt="" width="300">
-<img src="{{ '/images/finalquestionmark/seller2' | relative_url }}" alt="" width="300">
-<img src="{{ '/images/finalquestionmark/notifications' | relative_url }}" alt="" width="300">
+<img src="{{ '/images/finalquestionmark/buyer1.PNG' | relative_url }}" alt="" width="300">
+<img src="{{ '/images/finalquestionmark/seller1.PNG' | relative_url }}" alt="" width="300">
+<img src="{{ '/images/finalquestionmark/buyer2.PNG' | relative_url }}" alt="" width="300">
+<img src="{{ '/images/finalquestionmark/seller2.PNG' | relative_url }}" alt="" width="300">
+<img src="{{ '/images/finalquestionmark/notifications.PNG' | relative_url }}" alt="" width="300">
 
 Users are now able to view they past and present listings from their profile by clicking on the "Manage my Listings" button. Each listing has a badge that displays the 
 status of the listing in the transactional flow: Active, Pending, Expired, Needs Transfer, Awaiting Buyer, Rate Buyer, Complete. 
 
-<img src="{{ '/images/finalquestionmark/userListingsScreen' | relative_url }}" alt="" width="300">
+<img src="{{ '/images/finalquestionmark/userListingsScreen.PNG' | relative_url }}" alt="" width="300">
 
 User's can avail of simple user settings by clicking the gear icon on the top right of their profile. Current options include: changing display name, and onboarding for
 Stripe Connect... 
@@ -56,13 +56,13 @@ Stripe Connect...
 Releasing funds to Sellers now works by using an Edge Function and Stipe Connect. Users are required to create a Stripe Connect account in order to receive funds. The
 ID created by Stripe is saved to user in the new column on the profiles table: stripe_account_id. 
 
-<img src="{{ '/images/finalquestionmark/userSettingsScreen' | relative_url }}" alt="" width="300">
+<img src="{{ '/images/finalquestionmark/userSettingsScreen.PNG' | relative_url }}" alt="" width="300">
 
 
 After a transaction has completed, users are prompted to rate each other. The ratings involve providing a star rating out of 5 and an optional message. These reviews
 are then used to calculate the user's average trust rating, and they are displayed on the user's profile. 
 
-<img src="{{ '/images/finalquestionmark/buyerRate' | relative_url }}" alt="" width="300">
+<img src="{{ '/images/finalquestionmark/buyerRate.PNG' | relative_url }}" alt="" width="300">
 
 If at some point during the transaction, the Buyer has sent their funds and the Seller has confirmed that they have sent their ticket to the Buyer, if the Buyer is not responding to 
 messages and the date for the event of the ticket passes, the funds are automatically sent to the Seller's account. 
@@ -70,7 +70,7 @@ messages and the date for the event of the ticket passes, the funds are automati
 The search page has been fleshed out to allow users to search for listings by event titles, venue names or cities, filter by category or date range, and sort by recently 
 added, price low to high or high to low. 
 
-<img src="{{ '/images/finalquestionmark/exploreScreen' | relative_url }}" alt="" width="300">
+<img src="{{ '/images/finalquestionmark/exploreScreen.PNG' | relative_url }}" alt="" width="300">
 
 Now when a user creates a listing, a check is done to see if the even has been created before. If it has, a new event isn't created and that event is attached to the 
 listing. If an event that was previously queried by Gemini to determine a price, that price will be reused UNLESS the listing is for a different ticket type. 
@@ -80,12 +80,12 @@ Users are no longer required to be authenticated to browse listings, but will be
 When viewing a listing, the Seller is now prominently displayed using their display name, profile picture and trust rating. When a user clicks on this card, they will be redirected 
 to a userId.
 
-<img src="{{ '/images/finalquestionmark/listingIdScreen1' | relative_url }}" alt="" width="300">
-<img src="{{ '/images/finalquestionmark/listingIdScreen2' | relative_url }}" alt="" width="300">
+<img src="{{ '/images/finalquestionmark/listingIdScreen1.PNG' | relative_url }}" alt="" width="300">
+<img src="{{ '/images/finalquestionmark/listingIdScreen2.PNG' | relative_url }}" alt="" width="300">
 
 On this userId page, users can view the current listings and reviews of users. 
 
-<img src="{{ '/images/finalquestionmark/profile' | relative_url }}" alt="" width="300">
+<img src="{{ '/images/finalquestionmark/profile.PNG' | relative_url }}" alt="" width="300">
 
 The minimum amount for listing prices was changed to 50 cent to cater for Stripe's minimum transaction. 
 
