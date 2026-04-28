@@ -23,7 +23,7 @@ Once an offer has been accepted, the user proceeds to checkout like they would i
 The header of the conversation has been changed to display the other user's display name and profile picture, upon clicking on it the user will be redirected
 to a new page for viewing other user's profiles, userId (more on this later...).
 
-<img src="{{ '/images/finalquestionmark/otherUserIdScreen.PNG' | relative_url }}" alt="otherUserIdScreen" width="300">
+<img src="{{ '/images/finalquestionmark/ohterUserIdScreen.PNG' | relative_url }}" alt="otherUserIdScreen" width="300">
 <img src="{{ '/images/finalquestionmark/offers.PNG' | relative_url }}" alt="offers" width="300">
 
 
