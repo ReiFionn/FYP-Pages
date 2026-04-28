@@ -85,7 +85,7 @@ to a userId.
 
 On this userId page, users can view the current listings and reviews of users. 
 
-<img src="{{ '/images/finalquestionmark/profile.PNG' | relative_url }}" alt="" width="300">
+<img src="{{ '/images/finalquestionmark/profile.png' | relative_url }}" alt="" width="300">
 
 The minimum amount for listing prices was changed to 50 cent to cater for Stripe's minimum transaction. 
 
